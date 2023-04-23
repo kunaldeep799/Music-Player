@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bhakti Sagar</title>
+	<!-- connection to css file -->
+	<link rel="stylesheet" type="text/css" href="style.css"><!-- this is the main stylesheet -->
+	<!-- desktop first approach is used for the same. -->
+	<link rel="stylesheet" type="text/css" href="primary page responsive.css"><!-- this is the style sheet with all the media queries -->
+	<!-- this script is just for font awesome fonts -->
+	<script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+</head>
+<!-- body section starts -->
+<body>
+	<!-- top navigation bar -->
+	<nav class="navigation-bar">
+		<!--This div contains the logo and title of the page-->
+		<div class="title-combo">
+			<div class="website-logo">
+				<img src="media/ganesha_logo.png">
+			</div>
+			<div class="website-name">
+				<h2>
+					Bhakti Sagar
+				</h2>
+				<h6>
+					Heal Your Mind
+				</h6>
+			</div>
+		</div>
+		<!-- Navigation Panel Tools -->
+		<div class="favs">
+			<h4>
+				<a href="">Home</a>
+			</h4>
+		</div>
+		<div class="favs">
+			<h4>
+				<a href="#">Try Bhakti Sagar Pro</a>
+			</h4>
+		</div>
+		<div class="favs">
+			<h4>
+				<a href="#">Favourites</a>
+			</h4>
+		</div>
+		<!-- search bar -->
+		<div class="search-bar">
+			<div>
+				<!-- magnifying glass- search icon -->
+				<i class="fas fa-search search-ico"></i>
+			</div>
+			<input type="text" name="search" placeholder="Search">
+			<div>
+				<!-- mic icon -->
+				<i class="fas fa-microphone mic-ico"></i>
+			</div>
+		</div>
+		<!-- notification bell -->
+		<div class="notification-bell">
+			<img src="media/bell_icon.png"> Notifications
+
+		</div>
+		<!-- profile picture -->
+		<div class="profile-picture">
+			<img src="media/profile_picture.png">
+		</div>
+	</nav>
+	<!-- this is the main center part of the page and it is divided into two sections-->
+	<!-- I have separated these sections using the aside tag for each section -->
+	<main>
+		<!-- aside section 1 -->
+		<aside class="aside section-1">
+			<!-- this is for the carousel -->
+			<div class="outer-carousel">
+				<div class="carousel">
+					<!-- these are the 3 images in the carousel -->
+					<img src="media/crousel/carousel1.jpg">                    
+					<img src="media/crousel/carousel2.jpeg">
+					<img src="media/crousel/carousel3.jpg">
+				</div>
+			</div>
+			<!-- Trending Now Section -->
+			<div class="trending">
+				<h1 style="margin-bottom: 12px;">
+					Trending Now
+				</h1>
+				<!-- content of the Trending Now section -->
+				<!-- it will contain the "cards" -->
+				<div class="trending-content">
+					<!-- first card -->
+					<div class="card">
+						<div>
+							<!-- image corresponding to the card -->
+							<img src="media/songs/1.png">
+							<!-- play button, which will be shown on hover on the card image -->
+							<div class="play-button">
+								<i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+							</div>
+						</div>
+						<!-- name and date of release of the song -->
+						<div class="song-description">
+							<h3>
+								Shree Hanuman Chalisa
+							</h3>
+							<p class="singer">by Sachet Tandon</p>
+							<p class="plays">43,438,706 Plays</p>
+							<p>
+								Dec , 2020
+							</p>
+						</div>
+						<!-- Three dot drop-down menu for individual songs -->
+						<div class="options">
+							<label for="trending-checkbox"><i class="fas fa-ellipsis-h"></i></label>
+							<input type="checkbox" id="trending-checkbox">
+							<div class="trending-dropdown">
+								<div class="drop-item">
+									<p><i class="fas fa-play-circle"></i>Play Now</a></p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-list-ul"></i> Add to Queue</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-music"></i> Add to playlist</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-info-circle"></i> Get Info</p>
+								</div>
+							</div>
+							<!-- duration of the song -->
+							<p>
+								5:20
+							</p>
+						</div>
+					</div>
+					<!-- second card -->
+					<div class="card">
+						<div>
+							<img src="media/songs/2.jpg">
+							<div class="play-button">
+								<i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+							</div>
+						</div>
+						<div class="song-description">
+							<h3>
+								Vishnu Stotram
+							</h3>
+							<p class="singer">by Lo-Fi Striven</p>
+							<p class="plays">94,867 Plays</p>
+							<p>
+								Nov, 2009
+							</p>
+						</div>
+						<div class="options">
+							<label for="trending-checkbox2"><i class="fas fa-ellipsis-h"></i></label>
+							<input type="checkbox" id="trending-checkbox2">
+							<div class="trending-dropdown">
+								<div class="drop-item">
+									<p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play
+									Now</a></p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-list-ul"></i> Add to Queue</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-music"></i> Add to playlist</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-info-circle"></i> Get Info</p>
+								</div>
+							</div>
+							<p>
+								3:09
+							</p>
+						</div>
+					</div>
+					<!-- third card -->
+					<div class="card">
+						<div>
+							<img src="media/songs/3.jpg">
+							<div class="play-button">
+								<i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+							</div>
+						</div>
+						<div class="song-description">
+							<h3>
+								Sankat Mochan Hanuman
+							</h3>
+							<p class="singer">by Ravindra Jain</p>
+							<p class="plays">996,921 Plays</p>
+							<p>
+								March, 2018
+							</p>
+						</div>
+						<div class="options">
+							<label for="trending-checkbox3"><i class="fas fa-ellipsis-h"></i></label>
+							<input type="checkbox" id="trending-checkbox3">
+							<div class="trending-dropdown">
+								<div class="drop-item">
+									<p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play
+									Now</a></p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-list-ul"></i> Add to Queue</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-music"></i> Add to playlist</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-info-circle"></i> Get Info</p>
+								</div>
+							</div>
+							<p>
+								9:20
+							</p>
+						</div>
+					</div>
+					<!-- fourth card -->
+					<div class="card">
+						<div>
+							<img src="media/songs/4.jpg">
+							<div class="play-button">
+								<i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+							</div>
+						</div>
+						<div class="song-description">
+							<h3>
+								Takdir Mujhe Le Chal
+							</h3>
+							<p class="singer">by Shahnaaz Akhtar</p>
+							<p class="plays">976,967 Plays</p>
+							<p>
+								Jan, 2010
+							</p>
+						</div>
+						<div class="options">
+							<!-- NOTE THAT POSITION OF OPTIONS DIV IS RELATIVE -->
+							<label for="trending-checkbox4"><i class="fas fa-ellipsis-h"></i></label>
+							<input type="checkbox" id="trending-checkbox4">
+							<div class="trending-dropdown">
+								<div class="drop-item">
+									<p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play Now</a></p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-list-ul"></i> Add to Queue</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-music"></i> Add to playlist</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-info-circle"></i> Get Info</p>
+								</div>
+							</div>
+							<p>
+								8:12
+							</p>
+						</div>
+					</div>
+					<!-- fifth card -->
+					<div class="card">
+						<div>
+							<img src="media/songs/5.jpg">
+							<div class="play-button">
+								<i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+							</div>
+						</div>
+						<div class="song-description">
+							<h3>
+								Pata Nahi Kis Roop
+							</h3>
+							<p class="singer">by Samriddh Gaur</p>
+							<p class="plays">523,491 Plays</p>
+							<p>
+								Aug, 2016
+							</p>
+						</div>
+						<div class="options">
+							<label for="trending-checkbox5"><i class="fas fa-ellipsis-h"></i></label>
+							<input type="checkbox" id="trending-checkbox5">
+							<div class="trending-dropdown">
+								<div class="drop-item">
+									<p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play
+									Now</a></p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-list-ul"></i> Add to Queue</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-music"></i> Add to playlist</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-info-circle"></i> Get Info</p>
+								</div>
+							</div>
+							<p>
+								4:51
+							</p>
+						</div>
+					</div>
+					<!-- sixth card -->
+					<div class="card">
+						<div>
+							<img src="media/songs/6.jpg">
+							<div class="play-button">
+								<i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+							</div>
+						</div>
+						<div class="song-description">
+							<h3>
+								Mahabharat
+							</h3>
+							<p class="singer">by Pooja</p>
+							<p class="plays">116,805 Plays</p>
+							<p>
+								Oct, 2015
+							</p>
+						</div>
+						<div class="options">
+							<label for="trending-checkbox6"><i class="fas fa-ellipsis-h"></i></label>
+							<input type="checkbox" id="trending-checkbox6">
+							<div class="trending-dropdown">
+								<div class="drop-item">
+									<p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play Now</a></p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-list-ul"></i> Add to Queue</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-music"></i> Add to playlist</p>
+								</div>
+								<hr>
+								<div class="drop-item">
+									<p><i class="fas fa-info-circle"></i> Get Info</p>
+								</div>
+							</div>
+							<p>
+								2:39
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- this is the Category section -->
+			<div class="category">
+				<!-- this is the heading of Category section -->
+				<h1 style="margin-bottom: 12px;">
+					Category
+				</h1>
+				<!-- content of the category section -->
+				<div class="category-content">
+					<!-- category list -->
+					<!-- first category -->
+					<a href="#">
+						<div>
+							<img src="media/category/hanuman.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Hanuman
+							</p>
+						</div>
+					</a>
+					<!-- second category -->
+					<a href="#">
+						<div>
+							<img src="media/category/ram.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Ram
+							</p>
+						</div>
+					</a>
+					<!-- third category -->
+					<a href="#">
+						<div>
+							<img src="media/category/shiva.jpg" width="15vw" height="10vw">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Shiva
+							</p>
+						</div>
+					</a>
+					<!-- fourth category -->
+					<a href="#">
+						<div>
+							<img src="media/category/krishna.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Krishna
+							</p>
+						</div>
+					</a>
+					<!-- fifth category -->
+					<a href="#">
+						<div>
+							<img src="media/category/ganesha.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Ganesha
+							</p>
+						</div>
+					</a>
+					<!-- 6th category -->
+					<a href="#">
+						<div>
+							<img src="media/category/vishnu.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Vishnu
+							</p>
+						</div>
+					</a><!-- 7th category -->
+					<a href="#">
+						<div>
+							<img src="media/category/laxmi.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Laxmi
+							</p>
+						</div>
+					</a><!-- 8th category -->
+					<a href="#">
+						<div>
+							<img src="media/category/kali.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Kali
+							</p>
+						</div>
+					</a>
+					<!-- 9th category -->
+					<a href="#">
+						<div>
+							<img src="media/category/saraswati.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Saraswati
+							</p>
+						</div>
+					</a>
+					<!-- 10th category -->
+					<a href="#">
+						<div>
+							<img src="media/category/durga.jpg">
+							<div><i class="fas fa-play"></i></div>
+							<p>
+								Durga
+							</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- this is the music themes part, the one with the tri-gradient background -->
+			<div class="music-themes">
+				<!-- the logo with orange, green and yellow color -->
+				<div class="stations">
+					<div id="div1">
+						<div id="div2">
+							<div id="div3">
+								<img src="media/website_logo.png">
+								<p>Stations</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- content part of stations -->
+				<!-- hover effect -->
+				<div class="theme-main">
+					<div class="theme-content">
+						<img src="media/music_themes/vibes.jpg">
+						<p>Vibes</p>
+					</div>
+					<div class="theme-content">
+						<img src="media/music_themes/relax.jpg">
+						<p>Relax</p>
+					</div>
+					<div class="theme-content">
+						<img src="media/music_themes/energy.jpg">
+						<p>Energy</p>
+					</div>
+					<div class="theme-content">
+						<img src="media/music_themes/devotion.jpg">
+						<p>Devotion</p>
+					</div>
+					<div class="theme-content">
+						<img src="media/music_themes/heal.jpg">
+						<p>Heal</p>
+					</div>
+					<div class="theme-content">
+						<img src="media/music_themes/love.jpg">
+						<p>Love</p>
+					</div>
+				</div>
+			</div>
+			<!-- after themes portion -->
+			<div class="music-themes-2">
+				<!-- 3 divs content -->
+				<div class="outer-div">
+					<div class="inner-div">
+						<span>Bhajan</span>
+					</div>
+				</div>
+				<div class="outer-div">
+					<div class="inner-div">
+						<span>Mantra</span>
+					</div>
+				</div>
+				<div class="outer-div">
+					<div class="inner-div">
+						<span>Cultural</span>
+					</div>
+				</div>
+			</div>
+			<!-- End of theme Section -->
+
+			<!-- div for recommended song -->
+			<!-- considering the re-usability of the code for both sections -->
+			<div class="language english">
+				<!-- recomended song section -->
+				<h1 class="language-heading">
+					You Might Like
+				</h1>
+				<!-- contents of recomended section -->
+				<div class="language-content">
+					<div>
+						<img src="media/recomended/1.jpg">
+						<p>He Ram</p>
+						<p>Suraj Kumar</p>
+						<p>319k Plays</p>
+					</div>
+					<div>
+						<img src="media/recomended/2.jpg">
+						<p>Ram Siya Ram</p>
+						<p>Sachet Tandon</p>
+						<p>366k Plays</p>
+					</div>
+					<div>
+						<img src="media/recomended/3.jpg">
+						<p>Pata Nahi Kis Roop</p>
+						<p>Samriddh Gaur</p>
+						<p>525k Plays</p>
+					</div>
+					<div>
+						<img src="media/recomended/4.jpg">
+						<p>Shri Ram Jaanki</p>
+						<p>Ram Kumar Lakha</p>
+						<p>822k Plays</p>
+					</div>
+					<div>
+						<img src="media/recomended/5.jpg">
+						<p>Amba Mai Utari</p>
+						<p>Shahnaj Akhtar</p>
+						<p>153k Plays</p>
+					</div>
+					<div>
+						<img src="media/recomended/6.jpg">
+						<p>Shiv Sama Rahe</p>
+						<p>Hansraj Raghuwanshi</p>
+						<p>967k Plays</p>
+					</div>
+				</div>
+			</div>
+			<!-- individual artist section -->
+			<div class="language hindi">
+				<!-- section heading -->
+				<h1 class="language-heading">
+					Abhilipsa Panda Hits
+				</h1>
+				<!-- section contents -->
+				<div class="language-content">
+
+					<div>
+						<img src="media/hits/1.jpg">
+						<p>Namo Namah</p>
+						<p>Abhilipsa Panda</p>
+						<p>433k Plays</p>
+					</div>
+					<div>
+						<img src="media/hits/2.jpg">
+						<p>Bholenath Ji</p>
+						<p>Abhilipsa Panda</p>
+						<p>991k Plays</p>
+					</div>
+					<div>
+						<img src="media/hits/3.jpg">
+						<p>Jay Shiv Sambhu</p>
+						<p>Abhilipsa Panda</p>
+						<p>463k Plays</p>
+					</div>
+					<div>
+						<img src="media/hits/4.jpg">
+						<p>Mera Bhola</p>
+						<p>Abhilipsa Panda</p>
+						<p>451k Plays</p>
+					</div>
+					<div>
+						<img src="media/hits/5.jpg">
+						<p>Mahadeva</p>
+						<p>Abhilipsa Panda</p>
+						<p>640k Plays</p>
+					</div>
+					<div>
+						<img src="media/hits/6.jpg">
+						<p>Shankara</p>
+						<p>Abhilipsa Panda</p>
+						<p>982k Plays</p>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<!-- left aside section end -->
+
+		<!-- right aside section starts -->
+		<aside class="aside section-2">
+			<!-- section heading -->
+			<div class="heading">
+				<h1>Playlist</h1>
+				<!-- drop down menu for queue -->
+				<h4 class="queue">
+					<a href="#queue-option-box">Queue <i class="fas fa-chevron-circle-down"></i></a>
+				</h4>
+			</div>
+			<!-- list items of queue menu -->
+			<div class="queue-options" id="queue-option-box">
+				<p><a href style="color:#007bff; font-weight:bolder;">Playlists</a></p>
+				<hr>
+				<p><a href style="color:#007bff; font-weight:bolder;">Favourite songs</a></p>
+				<hr>
+				<p><a href="#" style="color:red; font-weight:bolder;">Close</a></p>
+			</div>
+			<!-- playlist content -->
+			<div class="playlist-content">
+				<!-- first playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<!-- index -->
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<!-- coverer class is for hovered effect -->
+							<img src="media/playlist/1.jpg">
+						</div>
+						<!-- name and author of the song -->
+						<div>
+							<div>
+								Bam Lehri
+								<p>
+									Abhilipsa Panda
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- like button -->
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- second playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/2.jpg">
+						</div>
+						<div>
+							<div>
+								Har Har Sambhu
+								<p>
+									Hansraj Raghuwanshi
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- third playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/3.jpg">
+						</div>
+						<div>
+							<div>
+								Mahadeva
+								<p>
+									Hansraj Raghuwanshi
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- fourth playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/4.jpg">
+						</div>
+						<div>
+							<div>
+								Namo Namo
+								<p>
+									Amit Trivedi
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- fifth playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/5.jpg">
+						</div>
+						<div>
+							<div>
+								Om Namah Shivay
+								<p>
+									Navin Tripathi
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- sixth playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/6.jpg">
+						</div>
+						<div>
+							<div>
+								Om Tryambakam
+								<p>
+									Arun Singh
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- seventh playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/7.jpg">
+						</div>
+						<div>
+							<div>
+								Bharat Ka Baccha
+								<p>
+									Pooja Golhani
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- eighth playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/8.jpg">
+						</div>
+						<div>
+							<div>
+								Mere Sarkar
+								<p>
+									Raj Pareek
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- ninth playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/9.jpg">
+						</div>
+						<div>
+							<div>
+								BamBholle
+								<p>
+									Viruss
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- tenth playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/10.jpg">
+						</div>
+						<div>
+							<div>
+								Karpur Gauram
+								<p>
+									Nirmalya Roy
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- eleventh playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/11.jpg">
+						</div>
+						<div>
+							<div>
+								Lagan Tumse Laga
+								<p>
+									Kavita Raam
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- twelfth playlist item -->
+				<div class=playlist-item>
+					<div class="left-content">
+						<div class="scroll" style="margin-right:4px;">
+							=
+						</div>
+						<div class="coverer">
+							<img src="media/playlist/12.jpg">
+						</div>
+						<div>
+							<div>
+								Ram Basta
+								<p>
+									Mona Mehta
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</main>
+	<!-- main section ends -->
+
+	<!-- footer section starts -->
+	<!-- its position will be fixed to the screen bottom. -->
+	<footer>
+		<div class="active-song-description">
+			<!-- song image -->
+			<div id="song-image">
+				<img src="media/songs/6.jpg">
+			</div>
+
+			<!-- song name and author -->
+			<div class="song-desc">
+				<div>
+					Arambh hai prachand
+				</div>
+				<div>
+					by Piyush Mishra
+				</div>
+			</div>
+		</div>
+		<div>
+			<audio controls>
+				<source src="media/audio/arambh.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+
+			<!-- player control icons -->
+			<div class="player">
+				<div class="controls">
+					<div class="control-items"><i class="fas fa-random"></i></div>
+					<div class="control-items"><i class="fas fa-step-backward"></i></div>
+					<div class="control-items"><i class="fas fa-step-forward"></i></div>
+					<div class="control-items"><i class="fas fa-redo"></i></div>
+					<div class="control-items"><i class="far fa-heart"></i></div>
+					<div class="control-items"><i class="fas fa-ban"></i></div>
+					<div class="control-items"><i class="fas fa-list-ul"></i></div>
+					<div class="control-items"><i class="fas fa-laptop"></i></div>
+					<div class="control-items"><i class="fas fa-expand-alt"></i></div>
+				</div>
+
+			</div>
+		</footer>
+		<!-- footer section ends -->
+	</body>
+	</html>
